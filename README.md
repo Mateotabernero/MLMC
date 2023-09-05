@@ -19,3 +19,6 @@ The first four options it prices are European, Asian, Lookback and Digital, unde
 
  $$ dS_t   = r S_t dt + \sqrt{\nu_t} S_t dW^{S}_t$$
  $$ d\nu_t = \kappa(\theta - \nu_t) dt + \xi \sqrt{\nu_t} dW^{\nu}_t$$
+
+### Milstein 
+Similar to the Opre file, here we compute the value of different optionsu
