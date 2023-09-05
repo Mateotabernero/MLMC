@@ -12,7 +12,7 @@ The Opre file computes the value of different options using Euler-Maruyama schem
 
 The first four options it prices are European, Asian, Lookback and Digital, under GBM. That is, considering stock prices undergoing the following SDE:
 
- $$ dS_t = r dt + \sigma dW_t $$
+ $$ dS_t = r dt + \sigma dW_t$$
  Where $W_t$ is a Wiener process 
 
  The fifth option it prices is an Europena option under Heston:
