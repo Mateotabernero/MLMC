@@ -10,6 +10,7 @@ The "Examples" folder contains examples on how to define the level l estimator a
 Here we compute the value of different options (European, Asian, Lookback, Digital and Barrier). We consider stock prices undergo the classical Geometric Brownian motion. That is:
 
  $$ dS_t = r dt + \sigma dW_t$$
+ 
  Where $W_t$ is a Wiener process 
 
 And use MLMC to price the options. For that, we define the level l estimators and then use the functions in the "pymlmc" file to use MLMC and generate plots comparing performance of this method with traditional Monte Carlo
